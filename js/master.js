@@ -99,8 +99,7 @@ function submitForm() {
     $("#submit").prop('disabled', true);
 
     $("#contactForm").bind("keyup change", function(e){
-
-    var email = $("#emailInput").val();
+        var email = $("#emailInput").val();
 
         if( email != 0 ) {
           if ( isValidEmailAddress(email) ) {
